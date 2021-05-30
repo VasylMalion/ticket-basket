@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.menu-item {
+    color: gray;
+}
+
+.lang {
+    width: 80px;
+}
+
+.header {
+    z-index: 9999;
+}

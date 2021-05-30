@@ -1,0 +1,21 @@
+.border-up {
+    border-top: 2px solid black;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.trans {
+    transform: rotate(180deg);
+}
+
+.hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;
+    background-color:#FFFF00;
+    height: 1px;
+}
+
+.width {
+    width: 1000px;
+}

@@ -1,0 +1,119 @@
+.ticket {
+    display: flex;
+    width: 70%;
+    background-color: white;
+    flex-direction: column;
+    height: 260px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0px auto 20px;
+}
+
+/*.ticket {*/
+/*    display: flex;*/
+/*    width: 70%;*/
+/*    background-color: white;*/
+/*    flex-direction: column;*/
+/*    height: 260px;*/
+/*    font-size: 20px;*/
+/*    border-radius: 5px;*/
+
+/*}*/
+
+.ticket-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.ticket-price button{
+    margin-left: 20px;
+}
+
+.ticket-direction {
+    display: flex;
+    padding: 10px 50px 20px 50px;
+    justify-content: space-between;
+}
+
+.ticket-direction div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.ticket-header {
+    padding: 10px 30px;
+    background-color: #fafcfb;
+}
+
+.ticket-plane {
+    margin-right: 10px;
+}
+
+.ticket-details {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.ticket-details-det {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px 5px;
+    border-radius:  5px;
+    margin-top: 4px;
+}
+
+.ticket hr {
+    padding: 0;
+    margin: 0;
+}
+
+.ticket-date {
+    font-size: 12px;
+}
+
+.ticket-det {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 30px;
+}
+
+.countPassanger {
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.arrow {
+    padding-right: 30px;
+}
+
+.ticket-price {
+    padding-right: 30px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}

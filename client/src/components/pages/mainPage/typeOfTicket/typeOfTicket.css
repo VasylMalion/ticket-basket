@@ -1,0 +1,13 @@
+.br-t {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.br-b {
+    border-radius: 0px 0px 7px 7px;
+}
+
+.span-font {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}

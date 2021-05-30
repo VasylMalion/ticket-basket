@@ -1,0 +1,14 @@
+.content-app {
+    min-height: 100vh;
+    /*min-height: calc(100vh - 153px);*/
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-app {
+    background-color: #ECECEE;
+}
+
+.switch-wrapper {
+    flex: 1;
+}

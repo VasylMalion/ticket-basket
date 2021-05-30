@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+}
+
+.bg-for-main {
+    background-color: #b1d1c6;;
+    min-height: calc(100vh - 153px);
+}
+
+
+.display-flex {
+    display: inline;
+    padding-right: 20px;
+}
+
+.rez {
+    width: 70%;
+    margin: auto;
+}
+
+.double {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.filter-width {
+    width: 355px;
+}

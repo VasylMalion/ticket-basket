@@ -1,0 +1,8 @@
+.contact-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-info {
+    border-radius: 5px;
+}
